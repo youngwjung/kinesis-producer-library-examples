@@ -16,7 +16,7 @@ import trip.TripReader;
 public class C_AsyncProducer {
 
     public static String streamName = "input-stream";
-    public static String region = "us-east-1";
+    public static String region = "ap-northeast-2";
 
     public static void main(String[] args) throws Exception {
         File tripCsv = new File("data/taxi-trips.csv");
